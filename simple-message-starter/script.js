@@ -13,7 +13,7 @@ window.onload = function load() {
   };
   
   function showMessage() {
-    let message = document.getElementById("message-text").value;
+    let message = document.getElementById("message-text", "name-text").value;
     let messageBox = document.getElementById("message-box");
     messageBox.innerText = message;
   }
