@@ -18,9 +18,19 @@
             <input type="button" value="Submit" onclick="getImage()" />
         </div>
         <div id="meme-builder">
-            <div id="meme-image-wrapper"></div>
-            <div id="top-text-wrapper" class="inputs"></div>
-            <div id="bottom-text-wrapper" class="inputs"></div>
+            <div id="meme-image-wrapper">
+                <!-- <img id = "meme-image" src = "" /> this is making two boxes appear??-->
+                <h2 id="top-text"></h2> 
+                <h2 id="bottom-text"></h2>    
+            </div>
+            <div id="top-text-wrapper" class="inputs">
+                <input id="top-text-input" type="text" placeholder="Top text." />
+                <input type="button" value="submit" onclick="addTopText()" />
+            </div>
+            <div id="bottom-text-wrapper" class="inputs">
+                <input id="bottom-text-input" type="text" placeholder="Bottom text." />
+                <input type="button" value="submit" onclick="addBottomText()" />
+            </div>
         </div>
 
         <script src="script.js"></script>

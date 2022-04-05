@@ -3,7 +3,7 @@ let todoTaskStatus = [];
 let todoList = document.getElementById("todo-list");
 
 function addTask() {
-    let newTask = document.getElementById("new-task-text");
+    let newTask = document.getElementById("new-task-text", "task-due-date");
     if (newTask.value) {
         todoTaskText.push(newTask.value);
         todoTaskStatus.push(false);
